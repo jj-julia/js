@@ -1,0 +1,26 @@
+
+  // myForm = document.forms[index];
+  // myEmail = myForm.elements["email"];
+  // emailText = myEmail.value;
+
+  // alert(emailText);
+
+   // $('form').submit(function(e){
+   //      e.preventDefault();
+
+   //       Show the 'commentonpost' for the submitted form 
+   //      alert($(this).children('#email').val());
+   //  });
+
+  // function validateEmail() {
+  // var re = /^.+@.+\..+$/;
+  // var email =  document.getElementById('email').value;
+  // if (re.test(email) === false){
+  // 	alert("Please Enter a Valid Email");
+  // }
+
+
+ //  function checkEmail(){
+ //  var re = /^.+@.+\..+$/; //simple regular expression for an email
+ //  if (myform.email.value.search(re)==-1) //if match failed
+	// alert("Please enter a valid email")

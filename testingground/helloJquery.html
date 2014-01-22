@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Hello World in Jquery</title>
+<style>
+  ul li{color:pink; }
+  .bigHello{text-transform: uppercase;}
+</style>
+ <body>
+   <ul>
+    <li>Hello World</li>
+    <li>Hello World</li>
+    <li>Hello World</li>
+   </ul>
+  <p>Try Me Please</p>
+<script src="js/jquery.js"></script>
+  <script> 
+    jQuery('ul li').css('color', 'indigo');
+    $('ul li').addClass('bigHello');
+    $('p').css('font-size','12em');
+    $('p').addClass('bigHello');
+  </script>
+</body>
+</html>
