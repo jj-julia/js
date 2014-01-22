@@ -1,4 +1,4 @@
- * Helpers and tools to ease your JavaScript day.
+ /* Helpers and tools to ease your JavaScript day.
  *
  * @author Mikael Roos (me@mikaelroos.se)
  */
