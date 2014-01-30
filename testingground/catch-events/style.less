@@ -1,0 +1,42 @@
+/**
+ * Import base style
+ */
+ 
+@import "../style/base.less";
+ 
+/**
+ * Here comes specific style for a certain test program.
+ */
+ 
+ @seagreen: #698B69;
+ @black: black;
+ 
+ 
+seagreen{
+  color:@seagreen;
+}
+
+.seagreenBackground{
+  background-color:@seagreen;
+}
+
+.greenH1{
+  color: @seagreen;
+}
+
+img{
+  background-color:@black;
+  min-height:15em;
+  border:5px solid @black;
+  padding:1em;
+  .border-radius(5px);
+}
+
+/** ------------------------------------
+ * CSS3 mixins.
+ */
+.border-radius(@radius:5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}

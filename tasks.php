@@ -16,7 +16,7 @@ $data['main'] = <<<EOD
 	<li><a href="testingground/resize-element/index.php">Resize Element</a></li>
 </ul>
 		
-<h1>Kmom01</h1>
+<h1>Kmom02</h1>
 <ul>
 	<li><a href="testingground/literals-and-types/index.php">Literals and Types</a></li>	
 	<li><a href="testingground/datatypes-and-values-using-strings/index.php">Datatypes and Values Using Strings</a></li>	
@@ -28,7 +28,14 @@ $data['main'] = <<<EOD
 	<li><a href="testingground/error-handling/index.php">Error Handling</a></li>		
 	<li><a href="testingground/roulette/index.php">Roulette (extra)</a></li>
 </ul>	
-
+<h1>Kmom03</h1>
+<ul>
+	<li><a href="testingground/literals-and-types/index.php">Literals and Types</a></li>	
+	<li><a href="testingground/datatypes-and-values-using-strings/index.php">Datatypes and Values Using Strings</a></li>	
+	<li><a href="testingground/datatypes-and-values-using-numbers/index.php">Datatypes and Values Using Numbers</a></li>		
+	<li><a href="testingground/throwing-dice-using-functions/index.php">Thowing Dice Using Functions</a></li>	
+	<li><a href="testingground/pushing-the-ball/index.php">Pushing the Ball</a></li>	
+</ul>	
 EOD;
 
 // Hand over to the template engine.

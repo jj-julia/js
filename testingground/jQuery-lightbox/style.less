@@ -1,0 +1,71 @@
+/**
+ * Import base style
+ */
+ 
+@import "../style/base.less";
+ 
+/**
+ * Here comes specific style for a certain test program.
+ */
+ 
+ 
+ @burntorange: #CD6600;
+ @seagreen: #698B69;
+ @black: black;
+ 
+burntorange{
+  color: @burntorange;
+ }
+ 
+seagreen{
+  color:@seagreen;
+}
+
+.imageBorder{
+  background-color:@seagreen;
+}
+
+
+.burntorangeBackground{
+  background-color: @burntorange;
+}
+  
+.greenH1{
+  color: @seagreen;
+}
+
+img{
+  background-color:@black;
+  height: 200px; 
+  width: 140px;
+  border:2px solid @black;
+  padding:.5em;
+  .border-radius(5px);
+}
+
+/**
+ * LightBox
+ */
+ 
+#overlay{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:998;
+  background:#000 url(img/loader.jpg) no-repeat scroll center center;
+}
+
+#lightboxContainer{
+  position:fixed;
+  z-index:999;
+}
+/** ------------------------------------
+ * CSS3 mixins.
+ */
+.border-radius(@radius:5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
